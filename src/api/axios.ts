@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig } from 'axios';
-import { getToken } from '../utils';
+import { getToken } from '../utils/utils';
 
 export interface McAxiosRequestConfig extends AxiosRequestConfig {
   extraConfig?: {

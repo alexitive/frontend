@@ -18,16 +18,19 @@ export const toFormdata = (rawData: { [key: string]: string | File }) => {
   return formdata;
 };
 
+// body解包url，向后端发出请求
 export const joinQueryUrl = (baseUrl: string, body: { [key: string]: string | number }): string => {
   let startFlag = true;
   let queryUrl = baseUrl;
   Object.keys(body).forEach((key: string) => {
+    // console.log(key,body[key])
     if (body[key]) {
       const startChar = startFlag ? '?' : '&';
       startFlag = false;
       queryUrl = queryUrl.concat(startChar, key, '=', body[key].toString());
     }
   });
+  console.log(queryUrl);
   return queryUrl;
 };
 

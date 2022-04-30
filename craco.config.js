@@ -17,9 +17,9 @@ module.exports = {
   //   }
   // ],
   devServer: {
-    proxy: {
+    proxy: { // 反向代理，http:localhost:3000/api => http:localhost:8080/
       '/api': {
-        target: 'http://127.0.0.1:8000/',
+        target: 'http://127.0.0.1:8080/',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''

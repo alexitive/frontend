@@ -4,9 +4,7 @@ declare namespace API {
     status: number;
   };
 
-  type ILoginResult = IResult & {
-    token?: string;
-  };
+
 
   type INowUserResult = IResult & {
     data: Entity.User;
@@ -22,10 +20,6 @@ declare namespace API {
     data: T[];
   };
 
-  type ILoginParams = {
-    userName: string;
-    password: string;
-  };
 
   type IPageParams = {
     pageSize: number;
@@ -60,7 +54,7 @@ declare namespace API {
   };
 
   type ICreateLoginDataParams = {
-    uid: number;
+    userName: string;
     password: string;
   };
 
@@ -71,4 +65,25 @@ declare namespace API {
     description?: string;
     videoFile: File;
   }
+
+  // 前后端交互参数命名空间
+  type IgetUserParams = {
+    id: number;
+  }
+
+  /**
+   * 登录函数请求数据
+   */
+  type ILoginParams = {
+    username: string;
+    password: string;
+  };
+  /**
+   * 登录函数返回数据
+   */
+  type ILoginResult = {
+    token: number; 
+  };
+
+
 }
