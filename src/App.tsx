@@ -14,7 +14,7 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path='/'  element={<Login />} />
-        <Route path='admin' element={<Admin />} />   
+        <Route path='/admin' element={<Admin />} />   
       </Routes>
     </HashRouter>
   );
