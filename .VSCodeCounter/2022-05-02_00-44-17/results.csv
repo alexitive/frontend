@@ -1,0 +1,39 @@
+"filename", "language", "JSON with Comments", "TypeScript React", "TypeScript", "Less", "CSS", "JSON", "Markdown", "JavaScript React", "XML", "JavaScript", "HTML", "comment", "blank", "total"
+"f:\Projects\frontend\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 21, 47
+"f:\Projects\frontend\craco.config.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 13, 0, 29, 2, 44
+"f:\Projects\frontend\package.json", "JSON", 0, 0, 0, 0, 0, 51, 0, 0, 0, 0, 0, 0, 1, 52
+"f:\Projects\frontend\public\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 23, 1, 44
+"f:\Projects\frontend\public\manifest.json", "JSON", 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 1, 26
+"f:\Projects\frontend\src\App.css", "CSS", 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 6, 39
+"f:\Projects\frontend\src\App.test.tsx", "TypeScript React", 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 10
+"f:\Projects\frontend\src\App.tsx", "TypeScript React", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 29
+"f:\Projects\frontend\src\api\api.ts", "TypeScript", 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 15, 15, 45
+"f:\Projects\frontend\src\api\axios.ts", "TypeScript", 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 4, 10, 94
+"f:\Projects\frontend\src\api\request.ts", "TypeScript", 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 25, 9, 60
+"f:\Projects\frontend\src\api\typings.d.ts", "TypeScript", 0, 0, 72, 0, 0, 0, 0, 0, 0, 0, 0, 16, 20, 108
+"f:\Projects\frontend\src\components\Header.jsx", "JavaScript React", 0, 0, 0, 0, 0, 0, 0, 28, 0, 0, 0, 3, 15, 46
+"f:\Projects\frontend\src\components\_defaultProps.tsx", "TypeScript React", 0, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 1, 40
+"f:\Projects\frontend\src\index.css", "CSS", 0, 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 2, 15
+"f:\Projects\frontend\src\index.tsx", "TypeScript React", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 22
+"f:\Projects\frontend\src\logo.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1
+"f:\Projects\frontend\src\pages\Admin.tsx", "TypeScript React", 0, 130, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 3, 150
+"f:\Projects\frontend\src\pages\Alert.tsx", "TypeScript React", 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 4, 30
+"f:\Projects\frontend\src\pages\MySider.tsx", "TypeScript React", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+"f:\Projects\frontend\src\pages\layout\CustomFooter.tsx", "TypeScript React", 0, 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 24
+"f:\Projects\frontend\src\pages\layout\CustomHeader.less", "Less", 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 0, 2, 3, 22
+"f:\Projects\frontend\src\pages\layout\CustomHeader.tsx", "TypeScript React", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 52, 7, 60
+"f:\Projects\frontend\src\pages\layout\CustomLayout.tsx", "TypeScript React", 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 33
+"f:\Projects\frontend\src\pages\layout\CustomSider.less", "Less", 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"f:\Projects\frontend\src\pages\layout\CustomSider.tsx", "TypeScript React", 0, 54, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 10, 80
+"f:\Projects\frontend\src\pages\layout\Dispatcher.tsx", "TypeScript React", 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 4, 45
+"f:\Projects\frontend\src\pages\login\Login.css", "CSS", 0, 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 1, 12
+"f:\Projects\frontend\src\pages\login\Login.tsx", "TypeScript React", 0, 133, 0, 0, 0, 0, 0, 0, 0, 0, 0, 12, 18, 163
+"f:\Projects\frontend\src\pages\login\Register.tsx", "TypeScript React", 0, 131, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 18, 157
+"f:\Projects\frontend\src\pages\login\constant.ts", "TypeScript", 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 17
+"f:\Projects\frontend\src\react-app-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2
+"f:\Projects\frontend\src\reportWebVitals.ts", "TypeScript", 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 16
+"f:\Projects\frontend\src\setupTests.ts", "TypeScript", 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 6
+"f:\Projects\frontend\src\utils\entity.d.ts", "TypeScript", 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 11
+"f:\Projects\frontend\src\utils\utils.ts", "TypeScript", 0, 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 18, 6, 56
+"f:\Projects\frontend\tsconfig.json", "JSON with Comments", 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 27
+"Total", "-", 26, 591, 261, 22, 57, 76, 26, 28, 1, 13, 20, 313, 206, 1640

@@ -6,9 +6,7 @@ declare namespace API {
 
 
 
-  type INowUserResult = IResult & {
-    data: Entity.User;
-  };
+
 
   type IPageResult = {
     pageSize: number;
@@ -82,8 +80,28 @@ declare namespace API {
    * 登录函数返回数据
    */
   type ILoginResult = {
+    user: Entity.User;
     token: number; 
   };
+  /**
+   * 登录成功获取当前用户信息
+   */
+  type INowUserResult = IResult & {
+    data: Entity.User;
+  };
 
+  /**
+   * 注册请求
+   */
+  type IRegister = {
+    username: string;
+    password: string;
+  };
+/**
+ * 注册响应
+ */
+  type IRegisterResult = {
+    token: number;
+  };
 
 }

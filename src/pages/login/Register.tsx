@@ -13,8 +13,8 @@ import { useState } from 'react';
 import CustomFooter from '../layout/CustomFooter';
 
 import './Login.css'
-import { defaultLoginResult } from './constant'
-import {  fetchUsers, login } from '../../api/api'
+import { defaultLoginResult, defaultRegisterResult } from './constant'
+import {  fetchUsers, login, register } from '../../api/api'
 import { useNavigate } from 'react-router-dom';
 import MyAlert from '../Alert'
 
@@ -40,32 +40,29 @@ interface LoginObj {
 export default () => {
   const [loginType, setLoginType] = useState<LoginType>('account');
   const [loginResult, setLoginResult] = useState<API.ILoginResult>(defaultLoginResult); // 返回结果，初始化
-  const navigate = useNavigate();
+  const [registerResult, setRegisterResult] = useState<API.IRegisterResult>(defaultRegisterResult); // 返回结果，初始化
+  const navigate = useNavigate(); // 组件内路由函数
 
   
   const handleSubmit =async (values:LoginObj) => { // 与后端进行交互
     console.log(values);
     try {
-      const msg = await login({ username: values.username, password: values.password }); // 异步通信
+      const msg = await register({ username: values.username, password: values.password }); // 异步通信
       console.log(msg);
-      setLoginResult(msg.data); // response{header,data,...} data={data,token..(自己定义的)}
+      setRegisterResult(msg.data); // response{header,data,...} data={data,token..(自己定义的)}
       console.log(msg.data.token);
       if(msg.data.token === 1) {
-        console.log('登录成功');
-        sessionStorage.setItem('token', msg.data.token.toString());
-        sessionStorage.setItem('id', msg.data.user.id.toString());
-        sessionStorage.setItem('name', msg.data.user.name);
-        sessionStorage.setItem('password', msg.data.user.password);
-        sessionStorage.setItem('comment', msg.data.user.comment);
-        sessionStorage.setItem('authority', msg.data.user.authority.toString());
-        // console.log(sessionStorage)
-        message.success('登录成功'); // 全局通知
-        navigate('/admin', {replace: true}); // 登录成功，重定向
+        console.log('注册成功');
+        message.success('注册成功,请登录'); // 全局通知
+        navigate('/', {replace: true}); // 注册成功，重定向
         return ;
       }
+      else if(msg.data.token === 0){
+        message.error('用户已存在，请重试');
+      }
     } catch (error) {
-      message.error('登录失败，请重试！');
-      console.log('login error', error);
+      message.error('注册失败，请重试！');
+      console.log('register error', error);
     }
   
   }
@@ -77,18 +74,22 @@ export default () => {
         <div>       
           <LoginForm
             // logo="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
-            title="基于知识图谱的电影信息管理系统"
-            subTitle="  "
+            title="用户注册"
+            subTitle=" "
+            submitter ={{
+              searchConfig:{
+                submitText: '注册'
+               
+              },
+              // submitButtonProps:{
+              //   style:{
+              //     width:'100%'
+              //   }
+              // },
+              resetButtonProps:false,
+            }}
             initialValues={{ autoLogin: true }}
-            // actions={
-            //   <Space>
-            //     其他登录方式
-            //     <AlipayCircleOutlined style={iconStyles} />
-            //     <TaobaoCircleOutlined style={iconStyles} />
-            //     <WeiboCircleOutlined style={iconStyles} />
-            //   </Space>
-            // }
-            onFinish={async (values: LoginObj) => { // 点击 登录 执行回调函数取值
+            onFinish={async (values: LoginObj) => { // 点击 注册 执行回调函数取值
               await handleSubmit(values);
             }}
           >
@@ -129,23 +130,16 @@ export default () => {
                 />
               </>
             )}
-
-            <div
-              style={{
-                marginBottom: 24,
-              }}
-            >
-              <ProFormCheckbox noStyle name="autoLogin">
-                自动登录
-              </ProFormCheckbox>
+            <div>
+              <div onClick={() => {navigate('/')}}  style={{marginBottom: '1px'}}>
                 <a
                   style={{
                     float: 'right',
                   }}
-                  onClick={() => {navigate('/register')}}
                 >
-                  注册
+                  返回登录
                 </a>
+              </div>
             </div>
           </LoginForm>
           

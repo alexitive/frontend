@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { Button, Descriptions, Result, Avatar, Space, Statistic } from 'antd';
 import { LikeOutlined, UserOutlined } from '@ant-design/icons';
 
-import type { ProSettings } from '@ant-design/pro-layout';
+import { DefaultFooter, ProSettings } from '@ant-design/pro-layout';
 import ProLayout, { PageContainer, SettingDrawer } from '@ant-design/pro-layout';
 import defaultProps from '../components/_defaultProps';
+import CustomFooter from './layout/CustomFooter';
+import { isWhiteSpaceLike } from 'typescript';
 
 const content = (
   <Descriptions size="small" column={2}>
@@ -20,7 +22,7 @@ const content = (
 
 export default() => {
   const [settings, setSetting] = useState<Partial<ProSettings> | undefined>({ fixSiderbar: true });
-  const [pathname, setPathname] = useState('/welcome');
+  const [pathname, setPathname] = useState('/admin');
   return (
     <div
       id="test-pro-layout"
@@ -83,7 +85,7 @@ export default() => {
         {...settings}
       >
         <PageContainer
-          content={content}
+          content={'Hello world'}
           tabList={[
             {
               tab: '基本信息',
@@ -107,19 +109,19 @@ export default() => {
               主操作
             </Button>,
           ]}
-          footer={[
-            <Button key="3">重置</Button>,
-            <Button key="2" type="primary">
-              提交
-            </Button>,
-          ]}
+          // footer={[
+          //   <Button key="3">重置</Button>,
+          //   <Button key="2" type="primary">
+          //     提交
+          //   </Button>,
+          // ]}
         >
           <div
             style={{
               height: '120vh',
             }}
           >
-            <Result
+            {/* <Result
               status="404"
               style={{
                 height: '100%',
@@ -128,7 +130,7 @@ export default() => {
               title="Hello World"
               subTitle="Sorry, you are not authorized to access this page."
               extra={<Button type="primary">Back Home</Button>}
-            />
+            /> */}
           </div>
         </PageContainer>
       </ProLayout>
@@ -142,6 +144,7 @@ export default() => {
         }}
         disableUrlParams={false}
       />
+      <CustomFooter />
     </div>
   );
 };
