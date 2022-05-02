@@ -11,6 +11,7 @@ import Admin from './pages/Admin'
 import Login from './pages/login/Login'
 import Register from './pages/login/Register';
 import CustomLayout from './pages/layout/CustomLayout';
+import { Query } from './pages/query/Query';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/admin' element={<Admin />} />  
         <Route path='/register' element={<Register />} />
         <Route path='/layout' element={<CustomLayout />} />
+        <Route path='/query' element={<Query />} />
       </Routes>
     </HashRouter>
   );

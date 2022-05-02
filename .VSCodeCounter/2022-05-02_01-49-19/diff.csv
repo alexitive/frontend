@@ -1,0 +1,9 @@
+"filename", "language", "TypeScript React", "CSS", "Less", "comment", "blank", "total"
+"f:\Projects\frontend\src\App.tsx", "TypeScript React", 1, 0, 0, 0, 0, 1
+"f:\Projects\frontend\src\pages\MySider.tsx", "TypeScript React", -1, 0, 0, 0, 0, -1
+"f:\Projects\frontend\src\pages\layout\CustomHeader.tsx", "TypeScript React", 0, 0, 0, 6, 0, 6
+"f:\Projects\frontend\src\pages\layout\CustomLayout.tsx", "TypeScript React", -2, 0, 0, 2, 0, 0
+"f:\Projects\frontend\src\pages\layout\CustomSider.css", "CSS", 0, 5, 0, 0, 1, 6
+"f:\Projects\frontend\src\pages\layout\CustomSider.less", "Less", 0, 0, -5, 0, -1, -6
+"f:\Projects\frontend\src\pages\layout\CustomSider.tsx", "TypeScript React", -5, 0, 0, -15, 0, -20
+"Total", "-", -7, 5, -5, -7, 0, -14

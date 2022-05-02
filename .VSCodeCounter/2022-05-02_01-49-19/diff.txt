@@ -1,0 +1,36 @@
+Date : 2022-05-02 01:49:19
+Directory : f:\Projects\frontend
+Total : 7 files,  -7 codes, -7 comments, 0 blanks, all -14 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| CSS              |          1 |          5 |          0 |          1 |          6 |
+| Less             |          1 |         -5 |          0 |         -1 |         -6 |
+| TypeScript React |          5 |         -7 |         -7 |          0 |        -14 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                      |          7 |         -7 |         -7 |          0 |        -14 |
+| src                                                    |          7 |         -7 |         -7 |          0 |        -14 |
+| src\pages                                              |          6 |         -8 |         -7 |          0 |        -15 |
+| src\pages\layout                                       |          5 |         -7 |         -7 |          0 |        -14 |
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                               | language         | code       | comment    | blank      | total      |
++--------------------------------------------------------+------------------+------------+------------+------------+------------+
+| f:\Projects\frontend\src\App.tsx                       | TypeScript React |          1 |          0 |          0 |          1 |
+| f:\Projects\frontend\src\pages\MySider.tsx             | TypeScript React |         -1 |          0 |          0 |         -1 |
+| f:\Projects\frontend\src\pages\layout\CustomHeader.tsx | TypeScript React |          0 |          6 |          0 |          6 |
+| f:\Projects\frontend\src\pages\layout\CustomLayout.tsx | TypeScript React |         -2 |          2 |          0 |          0 |
+| f:\Projects\frontend\src\pages\layout\CustomSider.css  | CSS              |          5 |          0 |          1 |          6 |
+| f:\Projects\frontend\src\pages\layout\CustomSider.less | Less             |         -5 |          0 |         -1 |         -6 |
+| f:\Projects\frontend\src\pages\layout\CustomSider.tsx  | TypeScript React |         -5 |        -15 |          0 |        -20 |
+| Total                                                  |                  |         -7 |         -7 |          0 |        -14 |
++--------------------------------------------------------+------------------+------------+------------+------------+------------+

@@ -1,0 +1,78 @@
+Date : 2022-05-02 01:49:19
+Directory : f:\Projects\frontend
+Total : 36 files,  1114 codes, 306 comments, 206 blanks, all 1626 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| TypeScript React   |         13 |        584 |        164 |         82 |        830 |
+| TypeScript         |         10 |        261 |         85 |         69 |        415 |
+| JSON               |          2 |         76 |          0 |          2 |         78 |
+| CSS                |          4 |         62 |          0 |         10 |         72 |
+| JavaScript React   |          1 |         28 |          3 |         15 |         46 |
+| JSON with Comments |          1 |         26 |          0 |          1 |         27 |
+| Markdown           |          1 |         26 |          0 |         21 |         47 |
+| HTML               |          1 |         20 |         23 |          1 |         44 |
+| Less               |          1 |         17 |          2 |          3 |         22 |
+| JavaScript         |          1 |         13 |         29 |          2 |         44 |
+| XML                |          1 |          1 |          0 |          0 |          1 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                       |         36 |      1,114 |        306 |        206 |      1,626 |
+| public                                                  |          2 |         45 |         23 |          2 |         70 |
+| src                                                     |         30 |        953 |        254 |        179 |      1,386 |
+| src\api                                                 |          4 |        193 |         60 |         54 |        307 |
+| src\components                                          |          2 |         62 |          8 |         16 |         86 |
+| src\pages                                               |         13 |        547 |        160 |         78 |        785 |
+| src\pages\layout                                        |          7 |        118 |        106 |         32 |        256 |
+| src\pages\login                                         |          4 |        288 |         22 |         39 |        349 |
+| src\utils                                               |          2 |         41 |         18 |          8 |         67 |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| f:\Projects\frontend\README.md                          | Markdown           |         26 |          0 |         21 |         47 |
+| f:\Projects\frontend\craco.config.js                    | JavaScript         |         13 |         29 |          2 |         44 |
+| f:\Projects\frontend\package.json                       | JSON               |         51 |          0 |          1 |         52 |
+| f:\Projects\frontend\public\index.html                  | HTML               |         20 |         23 |          1 |         44 |
+| f:\Projects\frontend\public\manifest.json               | JSON               |         25 |          0 |          1 |         26 |
+| f:\Projects\frontend\src\App.css                        | CSS                |         33 |          0 |          6 |         39 |
+| f:\Projects\frontend\src\App.test.tsx                   | TypeScript React   |          8 |          0 |          2 |         10 |
+| f:\Projects\frontend\src\App.tsx                        | TypeScript React   |         27 |          0 |          3 |         30 |
+| f:\Projects\frontend\src\api\api.ts                     | TypeScript         |         15 |         15 |         15 |         45 |
+| f:\Projects\frontend\src\api\axios.ts                   | TypeScript         |         80 |          4 |         10 |         94 |
+| f:\Projects\frontend\src\api\request.ts                 | TypeScript         |         26 |         25 |          9 |         60 |
+| f:\Projects\frontend\src\api\typings.d.ts               | TypeScript         |         72 |         16 |         20 |        108 |
+| f:\Projects\frontend\src\components\Header.jsx          | JavaScript React   |         28 |          3 |         15 |         46 |
+| f:\Projects\frontend\src\components\_defaultProps.tsx   | TypeScript React   |         34 |          5 |          1 |         40 |
+| f:\Projects\frontend\src\index.css                      | CSS                |         13 |          0 |          2 |         15 |
+| f:\Projects\frontend\src\index.tsx                      | TypeScript React   |         14 |          3 |          5 |         22 |
+| f:\Projects\frontend\src\logo.svg                       | XML                |          1 |          0 |          0 |          1 |
+| f:\Projects\frontend\src\pages\Admin.tsx                | TypeScript React   |        130 |         17 |          3 |        150 |
+| f:\Projects\frontend\src\pages\Alert.tsx                | TypeScript React   |         11 |         15 |          4 |         30 |
+| f:\Projects\frontend\src\pages\layout\CustomFooter.tsx  | TypeScript React   |         21 |          0 |          3 |         24 |
+| f:\Projects\frontend\src\pages\layout\CustomHeader.less | Less               |         17 |          2 |          3 |         22 |
+| f:\Projects\frontend\src\pages\layout\CustomHeader.tsx  | TypeScript React   |          1 |         58 |          7 |         66 |
+| f:\Projects\frontend\src\pages\layout\CustomLayout.tsx  | TypeScript React   |         24 |          5 |          4 |         33 |
+| f:\Projects\frontend\src\pages\layout\CustomSider.css   | CSS                |          5 |          0 |          1 |          6 |
+| f:\Projects\frontend\src\pages\layout\CustomSider.tsx   | TypeScript React   |         49 |          1 |         10 |         60 |
+| f:\Projects\frontend\src\pages\layout\Dispatcher.tsx    | TypeScript React   |          1 |         40 |          4 |         45 |
+| f:\Projects\frontend\src\pages\login\Login.css          | CSS                |         11 |          0 |          1 |         12 |
+| f:\Projects\frontend\src\pages\login\Login.tsx          | TypeScript React   |        133 |         12 |         18 |        163 |
+| f:\Projects\frontend\src\pages\login\Register.tsx       | TypeScript React   |        131 |          8 |         18 |        157 |
+| f:\Projects\frontend\src\pages\login\constant.ts        | TypeScript         |         13 |          2 |          2 |         17 |
+| f:\Projects\frontend\src\react-app-env.d.ts             | TypeScript         |          0 |          1 |          1 |          2 |
+| f:\Projects\frontend\src\reportWebVitals.ts             | TypeScript         |         13 |          0 |          3 |         16 |
+| f:\Projects\frontend\src\setupTests.ts                  | TypeScript         |          1 |          4 |          1 |          6 |
+| f:\Projects\frontend\src\utils\entity.d.ts              | TypeScript         |          9 |          0 |          2 |         11 |
+| f:\Projects\frontend\src\utils\utils.ts                 | TypeScript         |         32 |         18 |          6 |         56 |
+| f:\Projects\frontend\tsconfig.json                      | JSON with Comments |         26 |          0 |          1 |         27 |
+| Total                                                   |                    |      1,114 |        306 |        206 |      1,626 |
++---------------------------------------------------------+--------------------+------------+------------+------------+------------+

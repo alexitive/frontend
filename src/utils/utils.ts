@@ -30,7 +30,7 @@ export const joinQueryUrl = (baseUrl: string, body: { [key: string]: string | nu
       queryUrl = queryUrl.concat(startChar, key, '=', body[key].toString());
     }
   });
-  console.log(queryUrl);
+  // console.log(queryUrl);
   return queryUrl;
 };
 

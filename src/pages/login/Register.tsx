@@ -17,6 +17,7 @@ import { defaultLoginResult, defaultRegisterResult } from './constant'
 import {  fetchUsers, login, register } from '../../api/api'
 import { useNavigate } from 'react-router-dom';
 import MyAlert from '../Alert'
+import { API } from '../../api/typings';
 
 type LoginType = 'phone' | 'account';
 
@@ -54,7 +55,7 @@ export default () => {
       if(msg.data.token === 1) {
         console.log('注册成功');
         message.success('注册成功,请登录'); // 全局通知
-        navigate('/', {replace: true}); // 注册成功，重定向
+        navigate('/login', {replace: true}); // 注册成功，重定向
         return ;
       }
       else if(msg.data.token === 0){

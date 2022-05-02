@@ -17,6 +17,7 @@ import { defaultLoginResult } from './constant'
 import {  fetchUsers, login } from '../../api/api'
 import { useNavigate } from 'react-router-dom';
 import MyAlert from '../Alert'
+import { API } from '../../api/typings';
 
 type LoginType = 'phone' | 'account';
 

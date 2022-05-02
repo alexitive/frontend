@@ -1,3 +1,5 @@
+import { type } from "os";
+
 declare namespace API {
   type IResult = {
     message: string;
@@ -103,5 +105,18 @@ declare namespace API {
   type IRegisterResult = {
     token: number;
   };
+
+/**
+ * 查询
+ */
+type IQuery = {
+  question: string;
+}
+/**
+ * 查询响应
+ */
+ type IQueryResult = {
+  answer: string;
+}
 
 }

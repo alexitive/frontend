@@ -1,6 +1,7 @@
 import { AxiosResponse } from 'axios';
 import { joinQueryUrl, toFormdata } from '../utils/utils';
 import { request } from './request';
+import { API } from './typings';
 
 // 登录相关
 /** 登录接口 GET /user/login */
@@ -29,8 +30,10 @@ export async function fetchNowUser(): Promise<AxiosResponse<API.INowUserResult>>
 export async function register(body: API.IRegister): Promise<AxiosResponse<API.IRegisterResult>> {
   return request.get(joinQueryUrl('/user/signup', body));
 }
-
-
+/** 查询 GET /query */
+export async function query(body:API.IQuery): Promise<AxiosResponse<API.IQueryResult>> {
+  return request.get(joinQueryUrl('/user/query', body));
+}
 
 
 // 用户管理
@@ -38,6 +41,7 @@ export async function register(body: API.IRegister): Promise<AxiosResponse<API.I
 export async function fetchUsers(body: API.IgetUserParams): Promise<AxiosResponse<API.IRestResult<Entity.User>>> {
   return request.get(joinQueryUrl('/user/getuser', body));
 }
+
 
 
 
