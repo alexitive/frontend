@@ -48,11 +48,11 @@ export default function CustomSider() {
       <Menu theme="dark" mode="inline" className="custom-menu" selectedKeys={selectedKeys} openKeys={selectedOpenKeys}
       >
       <Menu.Item key="dashboard" icon={<DashboardOutlined />}>
-        <Link to="/">KGQA</Link> 
+        <Link to="/query">KGQA</Link> 
         {/* 路由 */}
       </Menu.Item>
       <Menu.Item key="user-manage" icon={<TeamOutlined />}>
-        <Link to="user/user-manage">用户</Link>
+        <Link to="/userdetail">用户</Link>
       </Menu.Item>
     </Menu>
     </Sider >

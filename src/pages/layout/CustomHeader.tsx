@@ -11,7 +11,8 @@ export default function CustomHeader() {
   const userName = sessionStorage.getItem('name') ?? 'unknow';
 
   const handleMenuClick = () => {
-    
+    sessionStorage.clear();
+    navigate('/login', {replace: true});
   }
 
   const dropdownMenu = (

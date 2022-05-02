@@ -12,6 +12,7 @@ import Login from './pages/login/Login'
 import Register from './pages/login/Register';
 import CustomLayout from './pages/layout/CustomLayout';
 import { Query } from './pages/query/Query';
+import Dispatcher from './pages/layout/Dispatcher';
 
 function App() {
   return (
@@ -19,10 +20,13 @@ function App() {
       <Routes>
         <Route path='/'  element={<Login />} />
         <Route path='/login' element={<Navigate to={'/'} />} />
-        <Route path='/admin' element={<Admin />} />  
         <Route path='/register' element={<Register />} />
-        <Route path='/layout' element={<CustomLayout />} />
-        <Route path='/query' element={<Query />} />
+        <Route 
+          path='*' 
+          element={
+            <Dispatcher />
+          }
+        />
       </Routes>
     </HashRouter>
   );

@@ -14,12 +14,11 @@ import './CustomLayout.css'
 
 const { Content } = Layout;
 
-// export default function CustomLayout(props: { children: ReactElement }) {
-export default function CustomLayout() {
+export default function CustomLayout(props: { children: ReactElement }) {
+// export default function CustomLayout() {
   return (
     <Layout>
       <CustomHeader />
-      {/* <Layout className='site-layout' style={{ padding: '0 24px 24px' }}> */}
       <Layout className='site-layout'>
         <CustomSider />
         <Layout>
@@ -31,10 +30,11 @@ export default function CustomLayout() {
               minHeight: 580
             }}
           >
+            {props.children}
             {/* {props.children} */}
             {/* <Query /> */}
             {/* <UserManage /> */}
-            <UserDetail />
+            {/* <UserDetail /> */}
           </Content>
           <CustomFooter />
         </Layout>
