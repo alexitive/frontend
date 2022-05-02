@@ -44,10 +44,11 @@ export default function CustomSider() {
 
   return (
     <Sider className="custom-sider" collapsible collapsed={collapsed} onCollapse={onCollapse}>
+      {/* <div className='logo'></div> */}
       <Menu theme="dark" mode="inline" className="custom-menu" selectedKeys={selectedKeys} openKeys={selectedOpenKeys}
       >
       <Menu.Item key="dashboard" icon={<DashboardOutlined />}>
-        <Link to="/">Dashboard</Link> 
+        <Link to="/">KGQA</Link> 
         {/* 路由 */}
       </Menu.Item>
       <Menu.Item key="user-manage" icon={<TeamOutlined />}>

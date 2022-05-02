@@ -1,0 +1,10 @@
+"filename", "language", "TypeScript", "TypeScript React", "comment", "blank", "total"
+"f:\Projects\frontend\src\App.tsx", "TypeScript React", 0, 2, 0, 0, 2
+"f:\Projects\frontend\src\api\api.ts", "TypeScript", 4, 0, 1, -1, 4
+"f:\Projects\frontend\src\api\typings.d.ts", "TypeScript", 7, 0, 6, 2, 15
+"f:\Projects\frontend\src\pages\layout\CustomLayout.tsx", "TypeScript React", 0, 2, 0, 0, 2
+"f:\Projects\frontend\src\pages\login\Login.tsx", "TypeScript React", 0, 1, 0, 0, 1
+"f:\Projects\frontend\src\pages\login\Register.tsx", "TypeScript React", 0, 1, 0, 0, 1
+"f:\Projects\frontend\src\pages\query\Query.tsx", "TypeScript React", 0, 44, 7, 6, 57
+"f:\Projects\frontend\src\utils\utils.ts", "TypeScript", -1, 0, 1, 0, 0
+"Total", "-", 10, 50, 15, 7, 82
